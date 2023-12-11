@@ -1,0 +1,89 @@
+* {box-sizing: border-box}
+body {font-family: fancypants}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  width: 25%; /* Four links of equal widths */
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.navbar a.active {
+  background-color:  #555;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+@font-face{font-family: "shakespeare"; src: url(/fonts/Hamletornot-K7y7.ttf)}
+
+header{text-align: center; font-family: "shakespeare";}
+
+.head{ background-color:#e1ad6d; padding-top: 5px;}
+
+.big{font-size: 65px}
+.smaller{font-size: 45px}
+
+.picture{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 20px
+}
+
+@font-face{font-family: "fancypants"; src: url(/fonts/Raleway-Regular.ttf)}
+
+@font-face{font-family: "fancypantsthin"; src: url(/fonts/Raleway-Bold.ttf)}
+
+@font-face{font-family: "fancypantsbold"; src: url(/fonts/Raleway-Heavy.ttf)}
+
+.bodycontent{padding: 20px; font-size: 20px}
+
+.headertext{padding-left:20px; font-size: 30px;font-family: "fancypantsbold"}
+
+.space{line-height: 1.4}
+
+.littleheader{font-size: 23px; padding-left:20px; font-family: "fancypantsthin"}
+
+.headerbig{font-size: 35px; padding-left: 20px; font-family: "fancypantsbold"}
+
+/* FOOTER*/
+
+footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:#e1ad6d;
+   color: black;
+   text-align: center;
+   padding: 5px;
+   font-family: "fancypantsthing";
+   font-size: 13px;
+   }
+
+/* FOOTER */
+
+.tab {
+    display: inline-block;
+    margin-left: 4em;
+}
